@@ -10,7 +10,7 @@
       <!--=============== CSS ===============-->
       <link rel="stylesheet" href="assets/css/styles.css">
 
-      <title>Responsive dropdown menu - Bedimcode</title>
+      <title>Loja GUI</title>
    </head>
    <body>
       <!--=============== HEADER ===============-->
@@ -117,7 +117,47 @@
          </nav>
       </header>
 
+      <section class="slider">
+        <div class="slider-content">
+            
+            <input type="radio" name="btn-radio" id="radio1">
+            <input type="radio" name="btn-radio" id="radio2">
+            <input type="radio" name="btn-radio" id="radio3">
+
+            <div class="slide-box primeiro">
+                <img class="img-desktop" src="assets/img/slide-2.jpg" alt="slide 1">
+                <img class="img-mobile" src="img/slide-1-mob.jpg" alt="slide 1">
+            </div>
+
+            <div class="slide-box">
+                <img class="img-desktop" src="assets/img/slide-2.jpg" alt="slide 3">
+                <img class="img-mobile" src="img/slide-2-mob.jpg" alt="slide 1">
+            </div>
+
+            <div class="slide-box">
+                <img class="img-desktop" src="assets/img/slide-2.jpg" alt="slide 3">
+                <img class="img-mobile" src="img/slide-3-mob.jpg" alt="slide 3">
+            </div>
+
+            <div class="nav-auto">
+                <div class="auto-btn1"></div>
+                <div class="auto-btn2"></div>
+                <div class="auto-btn3"></div>
+            </div>
+
+            <div class="nav-manual">
+                <label for="radio1" class="manual-btn"></label>
+                <label for="radio2" class="manual-btn"></label>
+                <label for="radio3" class="manual-btn"></label>
+            </div>
+
+        </div>
+    </section>
+ 
+    
+
       <!--=============== MAIN JS ===============-->
+      <script src="assets/js/slide.js" defer></script>
       <script src="assets/js/main.js"></script>
    </body>
 </html>
