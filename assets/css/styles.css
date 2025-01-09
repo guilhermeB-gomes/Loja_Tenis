@@ -419,11 +419,11 @@ section.slider{
   }
 
   .nav-auto, .nav-manual{
-      margin-top: 40%;
+      margin-top: 60%;
   }
 }
 :root{
-  --light-blue: #baded3;
+  --light-blue: hsl(220, 24%, 12%);
   --sky-blue: #40c9a2;
   --dark: #1f1f38;
 }
@@ -443,10 +443,13 @@ img{
 }
 .title{
   font-size: 2.5rem;
-  font-weight: 500;
+  font-weight: 600;
   text-align: center;
   padding: 1.3rem 0;
   opacity: 0.9;
+  font-family: "Bebas Neue", serif;
+  font-style: normal;
+  color: #fff;
 }
 .sm-title{
   font-weight: 300;
@@ -605,4 +608,9 @@ img{
       width: 50%;
   }
   
+}
+.bebas-neue-regular {
+  font-family: "Bebas Neue", serif;
+  font-weight: 400;
+  font-style: normal;
 }
